@@ -8,7 +8,5 @@ metadata:
 managedNodeGroups:
   - name: expense
     instanceType: m5.large
-    desiredCapacity: 0
-    minSize: 0        # Set the minSize to 0
-    maxSize: 3        # Optionally, you can limit the maxSize, but keep it higher than 0
+    desiredCapacity: 1      # Optionally, you can limit the maxSize, but keep it higher than 0
     spot: true
